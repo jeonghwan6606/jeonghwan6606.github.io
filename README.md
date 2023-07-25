@@ -1,32 +1,35 @@
-Freelancer Jekyll theme  
-=========================
+# Business Jekyll Theme
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
+Business Jekyll Theme is a theme that is designed to be used for small and medium business. It is designed by a team from [Technext](https://github.com/technext/). The theme is then ported over by [Melvin Ch'ng](http://melvinchng.github.io) for Jekyll support. The original source code can be obainted from Technext's [repository](https://github.com/technext/office)
 
-## How to use
- - Place a image in `/img/portfolio/`
- - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
- - Create posts to display your projects. Use the follow as an example:
-```txt
----
-layout: default
-modal-id: 1
-date: 2020-01-18
-img: cabin.png
-alt: image-alt
-project-date: January 2020
-client: The Client
-category: Web Development
-description: The description of the project
+Unlike most Jekyll Themes, Business Jekyll Theme is not meant to be a single page theme. This theme is a package that you can use for your business website or promote certain project. I reorganized all the files and make it Jekyll friendly.
 
----
-```
+Big thanks to the creator of Office as this theme would not be possible without their hard work! You are always welcome to contribute to this repository to make it better!
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.com/freelancer-theme)
+**Example Site**
+- [Business Jekyll Theme](https://business-jekyll-theme.github.io)
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
+**Example Site From The Original Creator**
+- [Office Template](http://demo.themewagon.com/preview/office-responsive-multipage-bootstrap-template)
 
----------
-For more details, read the [documentation](http://jekyllrb.com/)
+## Feature
+- Responsive layout
+- CSS Framework - Bootstrap 3
+- Beautiful icons by Fontawesome
+- Clean, simple and elegant
+- Multi page Template
+- Well commented and structured coding
+- Easy to use
+- It's Free!
+
+## Note
+I removed certain features from the original theme packages as we do not really need it. I modified the original source code slightly to make it more mobile friendly and reusable. 
+
+## Installation
+1. For first time user, you have to install Ruby and Rails. If you do not have Ruby on Rails installed, you may follow [this tutorial](http://melvinchng.github.io/rails/RubyOnRailsInstallation.html) that I wrote for Windows, Linux, and MacOS (installation videos are included).
+2. Install Jekyll by using the command `gem install jekyll`.
+3. Start your localhost server by using the command `jekyll serve`. Make sure that you are at the root directory of your folder before using this command.
+4. Your site should be accessible at `localhost:4000`.
+5. For additional information about Jekyll, refer to the [official website](http://jekyllrb.com/). 
+
+## Enjoy!
