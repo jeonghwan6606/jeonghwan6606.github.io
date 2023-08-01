@@ -255,7 +255,7 @@
             <h2><img src="assets/img/number3.png"> 조명 쇼핑몰</h2>
             <div class="portfolio-wrap">
             <img src="assets/img/portfolio/shop.png" class="img-fluid" alt="">
-            <a href="http://3.37.147.46/shop/Home"  target="_blank">
+            <a href="http://3.38.38.146/lightingshop/home.jsp"  target="_blank">
               <div class="portfolio-info">
                 <h4>조명 쇼핑몰</h4>
                 <p>▽클릭하시면 이동합니다</p>
@@ -278,23 +278,14 @@
               <hr> 
               사용한 프로그램 : Eclipse, HeidiSQL
               <hr>
-              프로젝트 방식 : Eclipse MVC
+              프로젝트 방식 : Eclipse Model1
               <br>
-              사용언어 : JAVA, SQL, Bootstrap, JavaScript, JQuery, JavaServlet
+              사용언어 : JAVA, SQL, Bootstrap, JavaScript, JQuery
               <hr>
-              JavaScript Jquery를 이용한 유효성검사, 필터와 리스너를 사용한 인코딩 및 컨트롤러 접근권한을 설정했습니다.
               <br>
-              회원과 직원으로 분류하며 기본적인 직원 및 회원의 CRUD(회원가입/로그인/정보수정/회원탈퇴)와
-              직원의 직위 및 재직상태에 따른 각 기능의 권한을 설정했습니다.
-              <br>
-              [사직자: 로그인 불가, 휴직자: 직원기능접근불가, 재직자: 직원기능활용가능, 
-              매니저직위의 직원만 직원관리가 가능]
-              <br>
-              [회원의 경우 카카오API를 활용한 회원주소CRUD기능, point 활용,
-              장바구니 및 주문, 비회원일 경우, 세션을 통한 장바구니 기능을 구현]
-              <br>
-              이 외에도 Bootstrap템플릿을 통해 디자인을 적용하고
-              다양하고 디테일한 기능들을 구현하며 흥미와 재미를 느끼며 마무리했습니다.
+이 프로젝트는 웹 기반의 온라인 상점(쇼핑몰)을 구현한 것으로, 사용자는 상품을 검색하고 장바구니에 담아 구매할 수 있습니다. 이 프로젝트는 Model 1 아키텍처를 따르는 방식으로 구현되었습니다. 비즈니스 로직과 프론트엔드를 함께 처리하기 위해 Servlet 없이 JSP를 사용하였습니다.
+
+Java 언어와 JSP를 통해 웹 애플리케이션을 개발하고, 클라이언트와 서버 간의 상호작용을 처리하기 위해 Servlet을 사용했습니다. 데이터베이스와의 연동은 JDBC를 활용하여 데이터를 저장하고 관리하였으며, 사용자와의 상호작용을 위해 HTML, CSS, JavaScript를 사용하여 프론트엔드를 디자인하고 구현했습니다. Apache Tomcat과 같은 웹 애플리케이션 서버를 사용하여 실제 서비스를 호스팅하였고, 관리자 페이지를 통해 쇼핑몰 운영에 필요한 관리 시스템을 구축하였습니다.
               </p>
           </div>
           </div>
@@ -305,7 +296,8 @@
            <h2><img src="assets/img/number2.png"> UserBoard 게시판</h2>
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/userboard.png" class="img-fluid" alt="">
-              <a href="https://github.com/KIMSOOGON/oracle-jdbc3" target="_blank">
+	      <img src="assets/img/portfolio/userboard2.png" class="img-fluid" alt="">	    
+              <a href="http://3.38.38.146/userboard/home.jsp" target="_blank">
               <div class="portfolio-info">
                 <h4>UserBoard 게시판</h4>
                 <p>▽클릭하시면 이동합니다</p>
@@ -343,9 +335,15 @@
         <hr>
         <span class="project-title">MySQL와 Model1패턴을 사용한 두번째 개인 프로젝트 UserBoard 게시판</span>
         <br>
-        이 프로젝트는 "userboard"라는 게시판 웹 애플리케이션을 구현한 것입니다. 사용자들이 게시글을 작성하고 댓글을 달 수 있는 간단한 게시판 기능을 제공합니다.
-        프로젝트에서는 JSP를 사용하여 웹 페이지를 구성하였고, MariaDB 데이터베이스를 활용하여 게시글과 댓글 정보를 관리합니다.
-        로그인 기능은 세션을 이용하여 인증을 처리하며, 데이터베이스와의 CRUD(Create, Read, Update, Delete) 연산을 통해 게시글과 댓글 정보를 관리합니다.
+                    MySQL와 Model1패턴을 사용한 두번째 개인 프로젝트 UserBoard 게시판 입니다.
+            <br>
+            이 프로젝트는 "userboard"라는 게시판 웹 애플리케이션을 구현한 것입니다. 사용자들이 게시글을 작성하고 댓글을 달 수 있는
+            간단한 게시판 기능을 제공합니다.
+            <br>
+            JSP를 사용하여 웹 페이지를 구성하였고, MariaDB 데이터베이스를 활용하여 게시글과 댓글 정보를 관리합니다.
+            <br>
+            로그인 기능은 세션을 이용하여 인증을 처리하며, 데이터베이스와의 CRUD(Create, Read, Update, Delete) 연산을 통해
+            게시글과 댓글 정보를 관리합니다.
     </p>
 	    </div>
           </div>
@@ -355,7 +353,7 @@
            <h2><img src="assets/img/number1.png"> 다이어리 프로젝트</h2>
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/diary.png" class="img-fluid" alt="">
-              <a href="http://3.37.147.46/cashbook/home.jsp" target="_blank">
+              <a href="http://3.38.38.146/diary/home.jsp" target="_blank">
               <div class="portfolio-info">
                 <h4>다이어리 프로젝트</h4>
                 <p>▽클릭하시면 이동합니다</p>
